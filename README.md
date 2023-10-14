@@ -12,7 +12,7 @@ The Slack Pub extension lets you post message to Slack channels from VS Code.
 
 ## Getting started
 
-1. Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=).
+1. Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=sontixyou.slack-pub).
 1. Configure the extension with your Slack API token and channel name. Set slackPub.slackToken and slackPub.toChannel in your settings.json`.
 1. Open the command palette and select `Slack Pub: Post Message to Slack`.
 
