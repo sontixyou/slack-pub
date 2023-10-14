@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "slack-pub.helloWorld",
-        "title": "Hello World"
+        "command": "slack-pub.postMessageToSlack",
+        "title": "post message to slack"
       }
     ]
   },
