@@ -1,10 +1,15 @@
 {
   "name": "slack-pub",
   "displayName": "Slack Pub",
+  "publisher": "sontixyou",
   "description": "post message to slack",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/sontixyou/slack-pub"
   },
   "categories": [
     "Other"
