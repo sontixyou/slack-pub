@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
   console.log('Congratulations, your extension "slack-post" is now active!');
 
   let disposable = vscode.commands.registerCommand('slack-pub.postMessageToSlack', async () => {
-    const slackToken = vscode.workspace.getConfiguration().get('slackPost.slackToken');
+    const slackToken = vscode.workspace.getConfiguration().get('slackPub.slackToken');
     if (!slackToken) {
       vscode.window.showErrorMessage('Slack API token is not configured.');
       return;
@@ -18,7 +18,7 @@ export function activate(context: vscode.ExtensionContext) {
       return;
     }
 
-    const channel = vscode.workspace.getConfiguration().get('slackPost.toChannel');
+    const channel = vscode.workspace.getConfiguration().get('slackPub.toChannel');
 		if (!channel) {
       vscode.window.showErrorMessage('Slack Channel is not configured.');
       return;
